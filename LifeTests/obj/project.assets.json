@@ -332,26 +332,63 @@
           "build/netcoreapp1.0/MSTest.TestAdapter.props": {}
         }
       },
-      "MSTest.TestFramework/2.2.3": {
+      "MSTest.TestFramework/3.0.2": {
         "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "System.Diagnostics.TextWriterTraceListener": "4.3.0"
-        },
         "compile": {
-          "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {
-            "related": ".XML"
+          "lib/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {
+            "related": ".xml"
           },
-          "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {
-            "related": ".Extensions.XML;.XML"
+          "lib/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {
+            "related": ".Extensions.xml;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {
-            "related": ".XML"
+          "lib/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {
+            "related": ".xml"
           },
-          "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {
-            "related": ".Extensions.XML;.XML"
+          "lib/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {
+            "related": ".Extensions.xml;.xml"
+          }
+        },
+        "resource": {
+          "lib/netcoreapp3.1/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netcoreapp3.1/de/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netcoreapp3.1/es/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netcoreapp3.1/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netcoreapp3.1/it/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netcoreapp3.1/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netcoreapp3.1/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netcoreapp3.1/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netcoreapp3.1/pt-BR/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netcoreapp3.1/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netcoreapp3.1/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netcoreapp3.1/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netcoreapp3.1/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "zh-Hant"
           }
         }
       },
@@ -2499,105 +2536,103 @@
         "mstest.testadapter.nuspec"
       ]
     },
-    "MSTest.TestFramework/2.2.3": {
-      "sha512": "wqrF2D/uqhTCFJ4bQjhf5vLPXnsjbRZMncr2/+wnhy922YAqLGO2VOjQ6grxGqOWyVWFeIDnQFpLKFRNnrAd7w==",
+    "MSTest.TestFramework/3.0.2": {
+      "sha512": "cuCE5PXK0mX0FIfY3yzDNKFqCf2FTxZhdH/Bxg4662MAWZg4TnG3rYsFzNpPECrvn8Ry6lG8TaT2Ltg1NZkC6Q==",
       "type": "package",
-      "path": "mstest.testframework/2.2.3",
+      "path": "mstest.testframework/3.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE",
-        "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
-        "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
-        "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
-        "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
-        "lib/net45/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/net45/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/net45/de/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/net45/de/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/net45/es/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/net45/es/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/net45/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/net45/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/net45/it/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/net45/it/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/net45/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/net45/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/net45/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/net45/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/net45/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/net45/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/net45/pt-BR/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/net45/pt-BR/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/net45/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/net45/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/net45/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/net45/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/net45/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/net45/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/net45/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/net45/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
-        "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
-        "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
-        "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
-        "lib/netstandard1.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/netstandard1.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/netstandard1.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/netstandard1.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/netstandard1.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/netstandard1.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/netstandard1.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/netstandard1.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/netstandard1.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/netstandard1.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/netstandard1.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/netstandard1.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/netstandard1.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/netstandard1.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/netstandard1.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/netstandard1.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/netstandard1.0/pt-BR/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/netstandard1.0/pt-BR/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/netstandard1.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/netstandard1.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/netstandard1.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/netstandard1.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/netstandard1.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/netstandard1.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/netstandard1.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/netstandard1.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "Icon.png",
+        "build/net6.0/MSTest.TestFramework.targets",
+        "build/net6.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "build/net6.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "build/net6.0/winui/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "build/net6.0/winui/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net462/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "lib/net462/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net462/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "lib/net462/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net462/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/de/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/es/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/it/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/pt-BR/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net462/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "lib/net6.0/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net6.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/pt-BR/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/net6.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "lib/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "lib/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netcoreapp3.1/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/de/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/es/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/it/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/pt-BR/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netcoreapp3.1/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard2.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard2.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/pt-BR/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/netstandard2.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
         "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
-        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
         "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
-        "lib/uap10.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/uap10.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/uap10.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/uap10.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/uap10.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/uap10.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/uap10.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/uap10.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/uap10.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/uap10.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/uap10.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/uap10.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/uap10.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/uap10.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/uap10.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/uap10.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/uap10.0/pt-BR/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/uap10.0/pt-BR/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/uap10.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/uap10.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/uap10.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/uap10.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/uap10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/uap10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "lib/uap10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
-        "lib/uap10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "mstest.testframework.2.2.3.nupkg.sha512",
+        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/pt-BR/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "lib/uap10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "mstest.testframework.3.0.2.nupkg.sha512",
         "mstest.testframework.nuspec"
       ]
     },
@@ -5960,7 +5995,7 @@
     ".NETCoreApp,Version=v3.1": [
       "Life >= 1.0.0",
       "MSTest.TestAdapter >= 2.2.3",
-      "MSTest.TestFramework >= 2.2.3",
+      "MSTest.TestFramework >= 3.0.2",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "coverlet.collector >= 3.0.2"
     ]
@@ -6020,7 +6055,7 @@
           },
           "MSTest.TestFramework": {
             "target": "Package",
-            "version": "[2.2.3, )"
+            "version": "[3.0.2, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -6050,16 +6085,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Обнаружено понижение версии пакета MSTest.TestFramework с 3.0.2 на 2.2.3. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n LifeTests -> Life -> MSTest.TestFramework (>= 3.0.2) \r\n LifeTests -> MSTest.TestFramework (>= 2.2.3)",
-      "libraryId": "MSTest.TestFramework",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  }
 }

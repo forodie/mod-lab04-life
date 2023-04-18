@@ -55,7 +55,7 @@
             },
             "MSTest.TestFramework": {
               "target": "Package",
-              "version": "[2.2.3, )"
+              "version": "[3.0.2, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",

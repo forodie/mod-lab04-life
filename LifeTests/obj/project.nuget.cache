@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "1+1oPFAUlBsdJOQwc1feF4l/ASqnxf1v+vpaIv+Z6bTkd+4a/0iBwoFke8yKFoytk4XVupoicu+DRY4DiUEbvw==",
-  "success": false,
+  "dgSpecHash": "chNdUMfifTb4KTLV2QRHzRxXaZfM3OQoRFtm5ZdbhZ1sNvTuhXVAzWh/Q0/h7RLOmYfdunXXbCN/AXW/UrYDJg==",
+  "success": true,
   "projectFilePath": "C:\\Users\\germa\\Documents\\GitHub\\mod-lab04-life\\LifeTests\\LifeTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\germa\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
@@ -13,7 +13,7 @@
     "C:\\Users\\germa\\.nuget\\packages\\microsoft.testplatform.testhost\\16.9.4\\microsoft.testplatform.testhost.16.9.4.nupkg.sha512",
     "C:\\Users\\germa\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\germa\\.nuget\\packages\\mstest.testadapter\\2.2.3\\mstest.testadapter.2.2.3.nupkg.sha512",
-    "C:\\Users\\germa\\.nuget\\packages\\mstest.testframework\\2.2.3\\mstest.testframework.2.2.3.nupkg.sha512",
+    "C:\\Users\\germa\\.nuget\\packages\\mstest.testframework\\3.0.2\\mstest.testframework.3.0.2.nupkg.sha512",
     "C:\\Users\\germa\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\germa\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\germa\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
@@ -90,15 +90,5 @@
     "C:\\Users\\germa\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\germa\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Обнаружено понижение версии пакета MSTest.TestFramework с 3.0.2 на 2.2.3. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n LifeTests -> Life -> MSTest.TestFramework (>= 3.0.2) \r\n LifeTests -> MSTest.TestFramework (>= 2.2.3)",
-      "libraryId": "MSTest.TestFramework",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }
