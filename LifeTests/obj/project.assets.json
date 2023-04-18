@@ -1732,7 +1732,7 @@
       },
       "Life/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.0",
+        "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "MSTest.TestFramework": "3.0.2",
           "Newtonsoft.Json": "13.0.3"
